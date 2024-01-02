@@ -28,6 +28,7 @@ class ModelHandler:
         return {
             "unnormalized_lm_loss": unnormalized_lm_loss,
             "normalized_lm_loss": normalized_lm_loss,
+            "total_batch_loss": total_batch_loss,
             "mean_lm_loss_per_sequence": mean_lm_loss_per_sequence,
             "perplexity": perplexity
         }
